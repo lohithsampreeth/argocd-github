@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: nanajanashia/argocd-app:1.2
+        image: redis:7
         ports:
         - containerPort: 8080
 
